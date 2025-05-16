@@ -1,19 +1,21 @@
-## BNW dex
+## 🌉 Dex Crosschain Setup Guide
 
-## Swap demo
+Follow these steps to set up and run the Dex Crosschain project:
 
-![image](https://github.com/user-attachments/assets/394bd7e9-d37e-45d2-9c92-181045636314)
+### 1. Use the Correct Node Version
 
-## How to add new chain (BNW)?
+```bash
+nvm use
+```
 
-- add new chain to swap
+### 2. Install Dependencies
 
-## How to create token on BNW chain?
+```bash
+pnpm install
+```
 
-- Need to many token on bnw chain to swap: https://github.com/bnw-labs/bnw-tokens
+### 3. Start the Development Server
 
-## How to deploy a new smart contract on bwn chain?
-
-## Video question
-
-- https://drive.google.com/file/d/1d44sC4xerwLIaeqYHrFyi9xqiWAy2kod/view?usp=sharing
+```bash
+pnpm dev
+```
